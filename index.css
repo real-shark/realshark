@@ -1,0 +1,65 @@
+@font-face{
+    src:url(Font/Apex/Apex-Mk3-ExtraLight.ttf);
+    font-family:font1;
+    
+}
+
+@font-face{
+    src:url(Font/Apex/ApexMk3-Medium.ttf);
+    font-family:font2;
+    
+}
+
+@font-face{
+    src:url(Font/bebas_neue/BebasNeue-Regular.ttf);
+    font-family:font3;
+    
+}
+
+body {
+    background-color:#e0e9f4 ;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 7%;
+    z-index: 1000;
+    display: flex;
+}
+
+p {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1px;
+    font-family:font2;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 3%;
+    font-family:font2;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 610px;
+    margin-top: 70px;
+    color: aliceblue;
+}
+
+nav ul li a{
+    color: black;
+    font-family:font1;
+    font-size: 24px;
+}

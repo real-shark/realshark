@@ -1,0 +1,136 @@
+@font-face {
+    src: url(Font/Apex/Apex-Mk3-ExtraLight.ttf);
+    font-family: font1;
+
+}
+
+@font-face {
+    src: url(Font/Apex/ApexMk3-Medium.ttf);
+    font-family: font2;
+
+}
+
+@font-face {
+    src: url(Font/bebas_neue/BebasNeue-Regular.ttf);
+    font-family: font3;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-height: 80%;
+}
+
+nav {
+    background-color: #16222e;
+    height: 85px;
+    width: 55%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    font-family: font2;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+    color: aliceblue;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    font-family: font2;
+}
+
+body {
+    background-color: #e0e9f4;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: font2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #16222e;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+}
+
+.image {
+    height: 150px;
+    width: 280px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.img1 {
+    background-image: url('AdobeStock_346156119.jpeg');
+}
+
+.img2 {
+    background-image: url('_DSC9759-2.jpg');
+}
+
+
+.img3 {
+    background-image: url('wedding.jpg');
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #e0e9f4;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: font2;
+
+}
+
+p {
+    text-transform: uppercase;
+    color: #e0e9f4;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    max-width: 80%;
+    margin-left: 18px;
+    font-family: font3;
+}
+
+.applink li a {
+    text-transform: uppercase;
+    color: aliceblue;
+
+
+}
+
+.applink li {
+    margin-top: 100px;
+    font-family: font2;
+    text-align: center;
+}
